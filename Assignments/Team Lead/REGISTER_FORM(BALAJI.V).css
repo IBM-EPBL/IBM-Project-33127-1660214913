@@ -1,0 +1,55 @@
+
+    .s{
+        margin-top: 150px;
+        background-color: bisque;
+        text-align: center;
+        color: aliceblue;
+        background: url("https://images.unsplash.com/photo-1663970206579-c157cba7edda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    div{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-items: center;
+        
+
+    }
+    a{
+        text-decoration: none;
+        font-size: large;
+    }
+    a:link {color:white;}
+    a:visited{ color: rgb(0, 255, 251);}
+    a:hover {color: chartreuse;text-decoration: underline;}
+    a:active {color: blue;text-decoration: none;}
+    .b{
+        background-color: rgb(26, 255, 0);
+        border-color: rgba(0, 0, 0, 0.86);
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        height: 30px;
+        width: 140px;
+        margin-top: 60px;
+        margin-left: 10px;
+        transition: background-color 0.15s, color 015s;
+    }
+    .b:hover{
+        background-color: rgb(67, 201, 83);
+        color: rgb(250, 251, 252);
+    }
+    .y{
+        background-color: black;
+        border-color: rgb(79, 79, 249);
+        border-style:  solid;
+        border-width: 1px;
+        border-radius: 2px;
+        cursor: pointer;
+        color: blue;
+        height: 35px;
+        width: 50px;
+        margin-right: 60px;
+    }
